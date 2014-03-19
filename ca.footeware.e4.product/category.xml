@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/ca.footeware.e4.application.feature_1.0.0.qualifier.jar" id="ca.footeware.e4.application.feature" version="1.0.0.qualifier">
+      <category name="ca.footeware.e4"/>
+   </feature>
+   <category-def name="ca.footeware.e4" label="Footeware e4"/>
+</site>
