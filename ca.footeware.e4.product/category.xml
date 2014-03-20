@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/ca.footeware.e4.application.feature_1.0.0.qualifier.jar" id="ca.footeware.e4.application.feature" version="1.0.0.qualifier">
+   <feature url="features/ca.footeware.e4.application.feature_0.0.0.jar" id="ca.footeware.e4.application.feature" version="0.0.0">
       <category name="ca.footeware.e4"/>
    </feature>
    <category-def name="ca.footeware.e4" label="Footeware e4"/>
