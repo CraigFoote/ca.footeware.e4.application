@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_BxaXACerEeWxCPrV0pAZQQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_hjecsGnsEei6n6y9iIbrww" featurename="children" parentElementId="xpath://mainMenu">
+    <elements xsi:type="menu:DirectMenuItem" xmi:id="_l_DQIGnsEei6n6y9iIbrww" elementId="ca.footeware.dnd.directmenuitem.dialog" label="Dialog" iconURI="platform:/plugin/ca.footeware.dnd/icons/Sample.png" contributionURI="bundleclass://ca.footeware.dnd/ca.footeware.dnd.handlers.DialogHandler"/>
+  </fragments>
+</fragment:ModelFragments>
