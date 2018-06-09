@@ -11,6 +11,9 @@
         <children xsi:type="menu:HandledMenuItem" xmi:id="_lrlRcKAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.copy.menu" label="Copy" iconURI="platform:/plugin/ca.footeware.e4.application/icons/copy.gif" mnemonics="C" command="_TNoIYKAdEeOX_Kv-cK26kg"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_wQT0cKAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.paste.menu" label="Paste" iconURI="platform:/plugin/ca.footeware.e4.application/icons/paste.gif" mnemonics="P" command="_eNWlUKAdEeOX_Kv-cK26kg"/>
       </children>
+      <children xsi:type="menu:Menu" xmi:id="_zLvPIGv1EeidVMR06CSjrA" elementId="ca.footeware.e4.application.menu.help" label="Help" mnemonics="H">
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_1T2LIGv1EeidVMR06CSjrA" elementId="ca.footeware.e4.application.directmenuitem.about" label="About" mnemonics="A" contributionURI="bundleclass://ca.footeware.e4.application/ca.footeware.e4.application.handlers.AboutHandler"/>
+      </children>
     </mainMenu>
     <trimBars xmi:id="_SkbjgHSxEeOsjItha9GaIg" elementId="ca.footeware.e4.application.trimbar">
       <children xsi:type="menu:ToolBar" xmi:id="_UWG8gHSxEeOsjItha9GaIg" elementId="ca.footeware.e4.application.toolbar">
