@@ -5,6 +5,9 @@
 
    <aboutInfo>
       <image path="/ca.footeware.e4.application/icons/about.png"/>
+      <text>
+         http://Footeware.ca
+      </text>
    </aboutInfo>
 
    <configIni use="default">
@@ -17,7 +20,7 @@
       </vmArgsMac>
    </launcherArgs>
 
-   <windowImages/>
+   <windowImages i16="/ca.footeware.e4.product/icons/icon16.png" i32="/ca.footeware.e4.product/icons/icon32.png" i48="/ca.footeware.e4.product/icons/icon48.png" i64="/ca.footeware.e4.product/icons/icon64.png"/>
 
    <splash
       location="ca.footeware.e4.application"
@@ -32,6 +35,7 @@
       </win>
    </launcher>
 
+
    <vm>
       <linux include="true">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-10</linux>
    </vm>
@@ -44,6 +48,7 @@
       <feature id="org.eclipse.emf.ecore"/>
       <feature id="org.eclipse.emf.common"/>
       <feature id="ca.footeware.e4.application.feature"/>
+      <feature id="org.eclipse.equinox.p2.core.feature" installMode="root"/>
    </features>
 
    <configurations>
