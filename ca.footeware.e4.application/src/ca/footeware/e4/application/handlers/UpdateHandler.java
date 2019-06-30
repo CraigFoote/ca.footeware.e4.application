@@ -30,8 +30,6 @@ public class UpdateHandler {
 //			"http://localhost/repository");
 			"http://download.eclipse.org/releases/2019-06/");
 
-	private IWorkbench workbench;
-
 	/**
 	 * @param agent     {@link IProvisioningAgent}
 	 * @param parent    {@link Shell}
@@ -90,7 +88,7 @@ public class UpdateHandler {
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
-				
+
 				// ask if updates should be installed and run installation
 
 				// found updates, ask user if to install?
@@ -103,7 +101,7 @@ public class UpdateHandler {
 							for (Update update : possibleUpdates) {
 								updates += update + "\n";
 							}
-							doInstall = MessageDialog.openQuestion(parent, "Really install updates?", updates);
+							doInstall = MessageDialog.openQuestion(parent, "Install updates?", updates);
 						}
 					});
 				}
@@ -124,7 +122,6 @@ public class UpdateHandler {
 						public void done(IJobChangeEvent event) {
 							if (event.getResult().isOK()) {
 								sync.syncExec(new Runnable() {
-
 									@Override
 									public void run() {
 										boolean restart = MessageDialog.openQuestion(parent,
@@ -135,12 +132,10 @@ public class UpdateHandler {
 										}
 									}
 								});
-
 							}
 							super.done(event);
 						}
 					});
-
 					provisioningJob.schedule();
 				}
 				return Status.OK_STATUS;
