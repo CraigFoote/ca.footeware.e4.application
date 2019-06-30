@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Dnd
-Bundle-SymbolicName: ca.footeware.dnd;singleton:=true
+Bundle-SymbolicName: ca.footeware.dnddialog;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Require-Bundle: javax.inject,
   org.eclipse.osgi,
@@ -14,3 +14,5 @@ Require-Bundle: javax.inject,
 Import-Package: javax.annotation;version="1.2.0",
   javax.inject;version="1.0.0"
 Automatic-Module-Name: ca.footeware.dnd
+Export-Package: ca.footeware.dnd.dialogs,
+ ca.footeware.dnd.handlers
