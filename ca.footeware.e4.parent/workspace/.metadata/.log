@@ -403,3 +403,66 @@ Command-line arguments:  -eclipse.keyring /tmp/tycho8179708186404475617secure_st
 !MESSAGE Add request for Equinox p2, headless functionalities 1.6.200.v20190516-1504 (org.eclipse.equinox.p2.core.feature.feature.group 1.6.200.v20190516-1504) is satisfiable
 !SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2019-06-30 17:56:08.261
 !MESSAGE Add request for ca.footeware.e4.application 1.1.0.201906302155 (ca.footeware.e4.application.product 1.1.0.201906302155) is satisfiable
+!SESSION 2019-07-01 14:07:55.958 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_212
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_CA
+Framework arguments:  -eclipse.keyring /tmp/tycho4087239599647927248secure_storage
+Command-line arguments:  -eclipse.keyring /tmp/tycho4087239599647927248secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2019-07-01 14:07:55.960
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2019-07-01 14:07:55.960
+!MESSAGE Add request for Equinox p2, headless functionalities 1.6.200.v20190516-1504 (org.eclipse.equinox.p2.core.feature.feature.group 1.6.200.v20190516-1504) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2019-07-01 14:07:55.961
+!MESSAGE Add request for ca.footeware.e4.application 1.1.0.201907011807 (ca.footeware.e4.application.product 1.1.0.201907011807) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2019-07-01 14:07:58.329
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2019-07-01 14:07:58.329
+!MESSAGE Add request for Equinox p2, headless functionalities 1.6.200.v20190516-1504 (org.eclipse.equinox.p2.core.feature.feature.group 1.6.200.v20190516-1504) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2019-07-01 14:07:58.329
+!MESSAGE Add request for ca.footeware.e4.application 1.1.0.201907011807 (ca.footeware.e4.application.product 1.1.0.201907011807) is satisfiable
+!SESSION 2019-07-01 14:16:50.245 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_212
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_CA
+Framework arguments:  -eclipse.keyring /tmp/tycho7759911636887906251secure_storage
+Command-line arguments:  -eclipse.keyring /tmp/tycho7759911636887906251secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2019-07-01 14:16:50.246
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2019-07-01 14:16:50.247
+!MESSAGE Add request for ca.footeware.e4.application 1.1.0.201907011816 (ca.footeware.e4.application.product 1.1.0.201907011816) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2019-07-01 14:16:50.247
+!MESSAGE Add request for Equinox p2, headless functionalities 1.6.200.v20190516-1504 (org.eclipse.equinox.p2.core.feature.feature.group 1.6.200.v20190516-1504) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2019-07-01 14:16:52.509
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2019-07-01 14:16:52.509
+!MESSAGE Add request for ca.footeware.e4.application 1.1.0.201907011816 (ca.footeware.e4.application.product 1.1.0.201907011816) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2019-07-01 14:16:52.510
+!MESSAGE Add request for Equinox p2, headless functionalities 1.6.200.v20190516-1504 (org.eclipse.equinox.p2.core.feature.feature.group 1.6.200.v20190516-1504) is satisfiable
+!SESSION 2019-07-01 14:18:14.560 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_212
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_CA
+Framework arguments:  -eclipse.keyring /tmp/tycho126612903412003020secure_storage
+Command-line arguments:  -eclipse.keyring /tmp/tycho126612903412003020secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2019-07-01 14:18:14.561
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2019-07-01 14:18:14.561
+!MESSAGE Add request for Equinox p2, headless functionalities 1.6.200.v20190516-1504 (org.eclipse.equinox.p2.core.feature.feature.group 1.6.200.v20190516-1504) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2019-07-01 14:18:14.562
+!MESSAGE Add request for ca.footeware.e4.application 1.1.0.201907011817 (ca.footeware.e4.application.product 1.1.0.201907011817) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2019-07-01 14:18:17.201
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2019-07-01 14:18:17.201
+!MESSAGE Add request for Equinox p2, headless functionalities 1.6.200.v20190516-1504 (org.eclipse.equinox.p2.core.feature.feature.group 1.6.200.v20190516-1504) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2019-07-01 14:18:17.202
+!MESSAGE Add request for ca.footeware.e4.application 1.1.0.201907011817 (ca.footeware.e4.application.product 1.1.0.201907011817) is satisfiable
