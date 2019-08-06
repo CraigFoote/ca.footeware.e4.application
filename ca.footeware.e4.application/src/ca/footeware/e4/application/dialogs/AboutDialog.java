@@ -33,6 +33,11 @@ import org.osgi.framework.FrameworkUtil;
  */
 public class AboutDialog extends Dialog {
 
+	/**
+	 * Constructor.
+	 * 
+	 * @param parentShell {@link Shell}
+	 */
 	public AboutDialog(Shell parentShell) {
 		super(parentShell);
 		setBlockOnOpen(true);

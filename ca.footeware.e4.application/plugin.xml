@@ -28,6 +28,14 @@
                value="icons/about.png">
          </property>
          <property
+               name="aboutText"
+               value="http://Footeware.ca">
+         </property>
+         <property
+               name="windowImages"
+               value="/ca.footeware.e4.product/icons/icon16.png,/ca.footeware.e4.product/icons/icon32.png,/ca.footeware.e4.product/icons/icon48.png,/ca.footeware.e4.product/icons/icon64.png,/ca.footeware.e4.product/icons/icon128.png">
+         </property>
+         <property
                name="preferenceCustomization"
                value="plugin_customization.ini">
          </property>

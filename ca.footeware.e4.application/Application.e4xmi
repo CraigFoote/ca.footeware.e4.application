@@ -11,6 +11,9 @@
         <children xsi:type="menu:HandledMenuItem" xmi:id="_lrlRcKAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.copy.menu" label="Copy" iconURI="platform:/plugin/ca.footeware.e4.application/icons/copy.gif" mnemonics="C" command="_TNoIYKAdEeOX_Kv-cK26kg"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_wQT0cKAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.paste.menu" label="Paste" iconURI="platform:/plugin/ca.footeware.e4.application/icons/paste.gif" mnemonics="P" command="_eNWlUKAdEeOX_Kv-cK26kg"/>
       </children>
+      <children xsi:type="menu:Menu" xmi:id="_o1lskLeuEem4BIDrX_9nPw" elementId="ca.footeware.e4.application.menu.window" label="Window" mnemonics="W">
+        <children xsi:type="menu:Menu" xmi:id="_mJQ-ULewEemNpZL3XUX0xQ" elementId="ca.footeware.e4.application.menu.showview" label="Show View" mnemonics="V"/>
+      </children>
       <children xsi:type="menu:Menu" xmi:id="_zLvPIGv1EeidVMR06CSjrA" elementId="ca.footeware.e4.application.menu.help" label="Help" mnemonics="H">
         <children xsi:type="menu:DirectMenuItem" xmi:id="_1T2LIGv1EeidVMR06CSjrA" elementId="ca.footeware.e4.application.directmenuitem.about" label="About" mnemonics="A" contributionURI="bundleclass://ca.footeware.e4.application/ca.footeware.e4.application.handlers.AboutHandler"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="__1j0YJN0Eemstujb-AKs6Q" elementId="ca.footeware.e4.application.handledmenuitem.update" label="Update" tooltip="Run the p2 updater" mnemonics="U" command="_uw6noJN0Eemstujb-AKs6Q"/>

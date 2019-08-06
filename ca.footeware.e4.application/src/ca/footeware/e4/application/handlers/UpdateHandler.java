@@ -28,9 +28,7 @@ public class UpdateHandler {
 
 	private static final String REPOSITORY_LOC = System.getProperty("UpdateHandler.Repo",
 //			"http://localhost/repository");
-			"http://download.eclipse.org/releases/2019-06/");
-
-	private IWorkbench workbench;
+			"http://download.eclipse.org/eclipse/updates/4.12/");
 
 	/**
 	 * @param agent     {@link IProvisioningAgent}
