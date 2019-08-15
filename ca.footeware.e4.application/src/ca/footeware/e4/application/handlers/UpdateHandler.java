@@ -84,7 +84,7 @@ public class UpdateHandler {
 				}
 
 				try {
-					throw new Exception(status.getException());
+					throw new Exception(status.getMessage());
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
