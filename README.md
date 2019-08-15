@@ -1,2 +1,2 @@
-ca.footeware.e4
-===============
+ca.footeware.e4.application
+===========================
