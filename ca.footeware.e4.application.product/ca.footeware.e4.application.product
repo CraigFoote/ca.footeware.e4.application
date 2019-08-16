@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="ca.footeware.e4.application" uid="ca.footeware.e4.application.product" id="ca.footeware.e4.application.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.2.0.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="ca.footeware.e4.application" uid="ca.footeware.e4.application.product" id="ca.footeware.e4.application.product" version="1.2.0.qualifier" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/ca.footeware.e4.application.ui/icons/about.png"/>
@@ -23,7 +23,7 @@
    <windowImages i16="/ca.footeware.e4.application.product/icons/icon16.png" i32="/ca.footeware.e4.application.product/icons/icon32.png" i48="/ca.footeware.e4.application.product/icons/icon48.png" i64="/ca.footeware.e4.application.product/icons/icon64.png" i128="/ca.footeware.e4.application.product/icons/icon128.png" i256="/ca.footeware.e4.application.product/icons/icon256.png"/>
 
    <splash
-      location="ca.footeware.e4.application"
+      location="ca.footeware.e4.application.ui"
       startupProgressRect="5,275,445,15"
       startupMessageRect="7,252,445,20"
       startupForegroundColor="000000" />
@@ -341,11 +341,10 @@ version(s), and exceptions or additional permissions here}.&quot;
 
    <configurations>
       <plugin id="org.apache.felix.scr" autoStart="true" startLevel="2" />
-      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="4" />
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
       <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
-      <plugin id="org.eclipse.update.configurator" autoStart="true" startLevel="4" />
    </configurations>
 
    <repositories>
@@ -357,6 +356,7 @@ version(s), and exceptions or additional permissions here}.&quot;
    </preferencesInfo>
 
    <cssInfo>
+      <file path="/ca.footeware.e4.application.ui/css/default.css"/>
    </cssInfo>
 
 </product>

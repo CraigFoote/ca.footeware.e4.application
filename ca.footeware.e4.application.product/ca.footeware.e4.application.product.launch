@@ -24,7 +24,7 @@
     <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dosgi.requiredJavaVersion=1.8 -XX:MaxPermSize=512m -Xms512m -Xmx2g"/>
     <stringAttribute key="pde.version" value="3.3"/>
     <stringAttribute key="product" value="ca.footeware.e4.application.product"/>
-    <stringAttribute key="productFile" value="/ca.footeware.e4.product/target/products/ca.footeware.e4.application.product/ca.footeware.e4.application.product"/>
+    <stringAttribute key="productFile" value="/ca.footeware.e4.application.product/target/products/ca.footeware.e4.application.product/ca.footeware.e4.application.product"/>
     <setAttribute key="selected_features">
         <setEntry value="ca.footeware.e4.application.feature:default"/>
         <setEntry value="ca.footeware.e4.p2.tools.feature:default"/>
