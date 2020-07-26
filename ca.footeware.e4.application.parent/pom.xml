@@ -18,7 +18,6 @@
 		<module>../ca.footeware.e4.application.feature</module>
 		<module>../ca.footeware.e4.application.product</module>
 		<module>../ca.footeware.e4.application.targetplatform</module>
-		<module>../ca.footeware.e4.application.repository</module>
 	</modules>
 
 	<build>
@@ -49,7 +48,6 @@
 							<groupId>${project.groupId}</groupId>
 							<artifactId>ca.footeware.e4.application.targetplatform</artifactId>
 							<version>${project.version}</version>
-							<classifier>ca.footeware.e4.application.targetplatform</classifier>
 						</artifact>
 					</target>
 					<environments>
