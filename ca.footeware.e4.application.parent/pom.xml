@@ -5,11 +5,11 @@
 
 	<groupId>ca.footeware.e4.application</groupId>
 	<artifactId>ca.footeware.e4.application.parent</artifactId>
-	<version>1.1.0-SNAPSHOT</version>
+	<version>1.2.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<properties>
-		<tycho-version>1.4.0</tycho-version>
+		<tycho-version>1.7.0</tycho-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
@@ -18,16 +18,17 @@
 		<module>../ca.footeware.e4.application.feature</module>
 		<module>../ca.footeware.e4.application.product</module>
 		<module>../ca.footeware.e4.application.targetplatform</module>
+		<module>../ca.footeware.e4.application.repository</module>
 	</modules>
 
 	<build>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.7.0</version>
+				<version>3.8.1</version>
 				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
+					<source>11</source>
+					<target>11</target>
 				</configuration>
 			</plugin>
 

@@ -16,7 +16,6 @@
       </children>
       <children xsi:type="menu:Menu" xmi:id="_zLvPIGv1EeidVMR06CSjrA" elementId="ca.footeware.e4.application.menu.help" label="Help" mnemonics="H">
         <children xsi:type="menu:DirectMenuItem" xmi:id="_1T2LIGv1EeidVMR06CSjrA" elementId="ca.footeware.e4.application.directmenuitem.about" label="About" mnemonics="A" contributionURI="bundleclass://ca.footeware.e4.application.ui/ca.footeware.e4.application.ui.handlers.AboutHandler"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="__1j0YJN0Eemstujb-AKs6Q" elementId="ca.footeware.e4.application.handledmenuitem.update" label="Update" tooltip="Run the p2 updater" mnemonics="U" command="_uw6noJN0Eemstujb-AKs6Q"/>
       </children>
     </mainMenu>
     <trimBars xmi:id="_SkbjgHSxEeOsjItha9GaIg" elementId="ca.footeware.e4.application.trimbar">
@@ -28,7 +27,6 @@
       </children>
     </trimBars>
   </children>
-  <handlers xmi:id="_PIGfcJN3Eemstujb-AKs6Q" elementId="ca.footeware.e4.application.handler.update" contributionURI="bundleclass://ca.footeware.e4.application.ui/ca.footeware.e4.application.ui.handlers.UpdateHandler" command="_uw6noJN0Eemstujb-AKs6Q"/>
   <bindingTables xmi:id="_qMzkcKAeEeOX_Kv-cK26kg" elementId="ca.footeware.e4.application.bindingtable" bindingContext="_W-AkeV1bEeOb1twxUJ3K6w">
     <bindings xmi:id="_tErJcKAeEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.cut.keybinding" keySequence="M1+X" command="__8lawJ9GEeOMypIx9SPPbw"/>
     <bindings xmi:id="_4t3aIKAeEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.copy.keybinding" keySequence="M1+C" command="_TNoIYKAdEeOX_Kv-cK26kg"/>
@@ -41,7 +39,6 @@
   <commands xmi:id="__8lawJ9GEeOMypIx9SPPbw" elementId="org.eclipse.ui.edit.cut" commandName="Cut" category="_MYdAUKAdEeOX_Kv-cK26kg"/>
   <commands xmi:id="_TNoIYKAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.copy" commandName="Copy" category="_MYdAUKAdEeOX_Kv-cK26kg"/>
   <commands xmi:id="_eNWlUKAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.paste" commandName="Paste" category="_MYdAUKAdEeOX_Kv-cK26kg"/>
-  <commands xmi:id="_uw6noJN0Eemstujb-AKs6Q" elementId="ca.footeware.e4.application.command.update" commandName="Update" description="Run the p2 updater" category="_MYdAUKAdEeOX_Kv-cK26kg"/>
   <addons xmi:id="_W-Akcl1bEeOb1twxUJ3K6w" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_W-Akc11bEeOb1twxUJ3K6w" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_W-AkdF1bEeOb1twxUJ3K6w" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
