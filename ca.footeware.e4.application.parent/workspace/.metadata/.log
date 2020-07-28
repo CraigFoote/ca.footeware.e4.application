@@ -125,3 +125,69 @@ java.net.ConnectException: Network is unreachable (connect failed)
 	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
 	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2020-07-28 11:25:22.594 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.1
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_CA
+Framework arguments:  -eclipse.keyring /tmp/tycho17750992468868072429secure_storage
+Command-line arguments:  -eclipse.keyring /tmp/tycho17750992468868072429secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-07-28 11:25:22.595
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-07-28 11:25:22.596
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 4.16.0.v20200604-0951 (org.eclipse.e4.rcp.feature.group 4.16.0.v20200604-0951) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-07-28 11:25:22.596
+!MESSAGE Add request for Footeware Application Feature 1.2.0.202007281525 (ca.footeware.e4.application.feature.feature.group 1.2.0.202007281525) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-07-28 11:25:22.597
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.22.0.v20200519-1135 (org.eclipse.emf.ecore.feature.group 2.22.0.v20200519-1135) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-07-28 11:25:22.598
+!MESSAGE Add request for ca.footeware.e4.application 1.2.0.202007281525 (ca.footeware.e4.application 1.2.0.202007281525) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-07-28 11:25:22.598
+!MESSAGE Add request for EMF Common 2.19.0.v20200324-0932 (org.eclipse.emf.common.feature.group 2.19.0.v20200324-0932) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-07-28 11:25:24.266
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-07-28 11:25:24.267
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 4.16.0.v20200604-0951 (org.eclipse.e4.rcp.feature.group 4.16.0.v20200604-0951) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-07-28 11:25:24.267
+!MESSAGE Add request for Footeware Application Feature 1.2.0.202007281525 (ca.footeware.e4.application.feature.feature.group 1.2.0.202007281525) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-07-28 11:25:24.268
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.22.0.v20200519-1135 (org.eclipse.emf.ecore.feature.group 2.22.0.v20200519-1135) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-07-28 11:25:24.269
+!MESSAGE Add request for ca.footeware.e4.application 1.2.0.202007281525 (ca.footeware.e4.application 1.2.0.202007281525) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-07-28 11:25:24.270
+!MESSAGE Add request for EMF Common 2.19.0.v20200324-0932 (org.eclipse.emf.common.feature.group 2.19.0.v20200324-0932) is satisfiable
+!SESSION 2020-07-28 11:30:07.596 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.1
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_CA
+Framework arguments:  -eclipse.keyring /tmp/tycho18169615367441809898secure_storage
+Command-line arguments:  -eclipse.keyring /tmp/tycho18169615367441809898secure_storage
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-07-28 11:30:07.596
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-07-28 11:30:07.596
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 4.16.0.v20200604-0951 (org.eclipse.e4.rcp.feature.group 4.16.0.v20200604-0951) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-07-28 11:30:07.596
+!MESSAGE Add request for ca.footeware.e4.application 1.2.0.202007281529 (ca.footeware.e4.application 1.2.0.202007281529) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-07-28 11:30:07.596
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.22.0.v20200519-1135 (org.eclipse.emf.ecore.feature.group 2.22.0.v20200519-1135) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-07-28 11:30:07.596
+!MESSAGE Add request for EMF Common 2.19.0.v20200324-0932 (org.eclipse.emf.common.feature.group 2.19.0.v20200324-0932) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-07-28 11:30:07.596
+!MESSAGE Add request for Footeware Application Feature 1.2.0.202007281529 (ca.footeware.e4.application.feature.feature.group 1.2.0.202007281529) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-07-28 11:30:09.144
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-07-28 11:30:09.144
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 4.16.0.v20200604-0951 (org.eclipse.e4.rcp.feature.group 4.16.0.v20200604-0951) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-07-28 11:30:09.144
+!MESSAGE Add request for ca.footeware.e4.application 1.2.0.202007281529 (ca.footeware.e4.application 1.2.0.202007281529) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-07-28 11:30:09.144
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.22.0.v20200519-1135 (org.eclipse.emf.ecore.feature.group 2.22.0.v20200519-1135) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-07-28 11:30:09.144
+!MESSAGE Add request for EMF Common 2.19.0.v20200324-0932 (org.eclipse.emf.common.feature.group 2.19.0.v20200324-0932) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-07-28 11:30:09.144
+!MESSAGE Add request for Footeware Application Feature 1.2.0.202007281529 (ca.footeware.e4.application.feature.feature.group 1.2.0.202007281529) is satisfiable
