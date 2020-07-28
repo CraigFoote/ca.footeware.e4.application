@@ -6,17 +6,14 @@ import org.eclipse.e4.ui.workbench.IWorkbench;
 /**
  * @author <a href="http://Footeware.ca">Footeware.ca</a>
  */
-public class ExitHandler
-{
-	
+public class ExitHandler {
+
 	/**
-	 * @param workbench
-	 *            {@link IWorkbench}
+	 * @param workbench {@link IWorkbench}
 	 */
 	@Execute
-	public static void execute(final IWorkbench workbench)
-	{
+	public void execute(IWorkbench workbench) {
 		workbench.close();
 	}
-	
+
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature id="ca.footeware.e4.application.feature" os="linux,win32" ws="gtk,win32" nl="en" arch="x86_64">
+   <feature id="ca.footeware.e4.application.feature">
       <category name="ca.footeware.e4.application"/>
    </feature>
    <category-def name="ca.footeware.e4.application" label="Footeware e4 Application"/>

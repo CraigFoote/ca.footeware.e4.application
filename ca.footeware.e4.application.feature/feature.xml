@@ -3,11 +3,7 @@
       id="ca.footeware.e4.application.feature"
       label="Footeware Application Feature"
       version="1.2.0.qualifier"
-      provider-name="Footeware.ca"
-      os="linux,win32"
-      ws="gtk,win32"
-      nl="en"
-      arch="x86_64">
+      provider-name="Footeware.ca">
 
    <description url="http://Footeware.ca">
       Footeware Application Feature
