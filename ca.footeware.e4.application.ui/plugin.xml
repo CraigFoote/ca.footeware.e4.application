@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?eclipse version="3.4"?>
 <plugin>
-
    <extension
-         id="ca_footeware_e4_application_product"
+         id="product"
          point="org.eclipse.core.runtime.products">
       <product
-            name="ca.footeware.e4.application"
-            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+            application="org.eclipse.e4.ui.workbench.swt.E4Application"
+            name="product">
          <property
                name="windowImages"
                value="platform:/plugin/ca.footeware.e4.application.product/icons/icon16.png,platform:/plugin/ca.footeware.e4.application.product/icons/icon32.png,platform:/plugin/ca.footeware.e4.application.product/icons/icon48.png,platform:/plugin/ca.footeware.e4.application.product/icons/icon64.png,platform:/plugin/ca.footeware.e4.application.product/icons/icon128.png,platform:/plugin/ca.footeware.e4.application.product/icons/icon256.png">
@@ -38,7 +37,7 @@
          </property>
          <property
                name="appName"
-               value="ca.footeware.e4.application">
+               value="product">
          </property>
          <property
                name="preferenceCustomization"
@@ -46,5 +45,6 @@
          </property>
       </product>
    </extension>
+
 
 </plugin>

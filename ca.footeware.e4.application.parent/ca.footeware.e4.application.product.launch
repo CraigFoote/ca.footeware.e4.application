@@ -27,7 +27,7 @@
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
     <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Xms256m -Xmx2g"/>
     <stringAttribute key="pde.version" value="3.3"/>
-    <stringAttribute key="product" value="ca.footeware.e4.application.ui.ca_footeware_e4_application_product"/>
+    <stringAttribute key="product" value="ca.footeware.e4.application.ui.product"/>
     <stringAttribute key="productFile" value="/ca.footeware.e4.application.product/ca.footeware.e4.application.product"/>
     <setAttribute key="selected_features">
         <setEntry value="ca.footeware.e4.application.feature:default"/>
@@ -76,7 +76,7 @@
         <setEntry value="org.eclipse.e4.ui.dialogs@default:default"/>
         <setEntry value="org.eclipse.e4.ui.model.workbench@default:default"/>
         <setEntry value="org.eclipse.e4.ui.services@default:default"/>
-        <setEntry value="org.eclipse.e4.ui.swt.gtk@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.swt.gtk@default:default"/>
         <setEntry value="org.eclipse.e4.ui.widgets@default:default"/>
         <setEntry value="org.eclipse.e4.ui.workbench.addons.swt@default:default"/>
         <setEntry value="org.eclipse.e4.ui.workbench.renderers.swt@default:default"/>
@@ -92,7 +92,7 @@
         <setEntry value="org.eclipse.equinox.common@2:true"/>
         <setEntry value="org.eclipse.equinox.console@default:default"/>
         <setEntry value="org.eclipse.equinox.event@2:true"/>
-        <setEntry value="org.eclipse.equinox.launcher.gtk.linux.x86_64@default:false"/>
+        <setEntry value="org.eclipse.equinox.launcher.gtk.linux.x86_64@default:default"/>
         <setEntry value="org.eclipse.equinox.launcher@default:default"/>
         <setEntry value="org.eclipse.equinox.preferences@default:default"/>
         <setEntry value="org.eclipse.equinox.registry@default:default"/>
@@ -100,11 +100,11 @@
         <setEntry value="org.eclipse.jface.databinding@default:default"/>
         <setEntry value="org.eclipse.jface.notifications@default:default"/>
         <setEntry value="org.eclipse.jface@default:default"/>
-        <setEntry value="org.eclipse.osgi.compatibility.state@default:false"/>
+        <setEntry value="org.eclipse.osgi.compatibility.state@default:default"/>
         <setEntry value="org.eclipse.osgi.services@default:default"/>
         <setEntry value="org.eclipse.osgi.util@default:default"/>
-        <setEntry value="org.eclipse.osgi@-1:true"/>
-        <setEntry value="org.eclipse.swt.gtk.linux.x86_64@default:false"/>
+        <setEntry value="org.eclipse.osgi@default:default"/>
+        <setEntry value="org.eclipse.swt.gtk.linux.x86_64@default:default"/>
         <setEntry value="org.eclipse.swt@default:default"/>
         <setEntry value="org.eclipse.urischeme@default:default"/>
         <setEntry value="org.w3c.css.sac@default:default"/>

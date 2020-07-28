@@ -19,7 +19,6 @@
 		<module>../ca.footeware.e4.application.feature</module>
 		<module>../ca.footeware.e4.application.product</module>
 		<module>../ca.footeware.e4.application.targetplatform</module>
-		<module>../ca.footeware.e4.application.repository</module>
 	</modules>
 
 	<build>
