@@ -3,6 +3,7 @@ package ca.footeware.e4.application.ui.handlers;
 
 import java.util.List;
 
+import org.eclipse.e4.core.di.annotations.Execute;
 import org.eclipse.e4.ui.di.AboutToShow;
 import org.eclipse.e4.ui.model.application.MApplication;
 import org.eclipse.e4.ui.model.application.commands.MCommand;
@@ -15,6 +16,7 @@ import org.eclipse.e4.ui.workbench.modeling.EModelService;
 public class ShowPerspectiveDynamicMenu {
 
 	@AboutToShow
+	@Execute
 	public void aboutToShow(List<MMenuElement> items, EModelService modelService, MApplication application) {
 		List<MCommand> mCommands = modelService.findElements(application,
 				"ca.footeware.e4.application.ui.command.showperspective", MCommand.class);
