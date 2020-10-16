@@ -2,7 +2,7 @@
 <feature
       id="ca.footeware.e4.application.feature"
       label="Footeware Application Feature"
-      version="1.2.0.qualifier"
+      version="1.3.0.qualifier"
       provider-name="Footeware.ca">
 
    <description url="http://Footeware.ca">
@@ -14,11 +14,11 @@
    </copyright>
 
    <license url="http://www.eclipse.org/legal/epl-v20.html">
-      EPL
+      EPL 2.0
    </license>
 
    <url>
-      <discovery label="Footeware discovery site" url="http://Footeware.ca"/>
+      <discovery label="Footeware Discovery Site" url="http://Footeware.ca"/>
    </url>
 
    <plugin
