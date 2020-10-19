@@ -26,11 +26,8 @@ public class ShowViewDynamicMenu {
 		Set<MPart> uniqueParts = new HashSet<>();
 		Set<String> labels = new HashSet<>();
 		for (MPart mPart : mParts) {
-			String label = mPart.getLabel();
-			if (!labels.contains(label)) {
-				labels.add(label);
-				uniqueParts.add(mPart);
-			}
+			uniqueParts.add(mPart);
+			labels.add(mPart.getLabel());
 		}
 
 		for (MPart mPart : uniqueParts) {
