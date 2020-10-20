@@ -15,8 +15,8 @@ import org.eclipse.e4.ui.workbench.modeling.EModelService;
 
 public class ShowPerspectiveDynamicMenu {
 
-	@AboutToShow
 	@Execute
+	@AboutToShow
 	public void aboutToShow(List<MMenuElement> items, EModelService modelService, MApplication application) {
 		List<MCommand> mCommands = modelService.findElements(application,
 				"ca.footeware.e4.application.ui.command.showperspective", MCommand.class);
