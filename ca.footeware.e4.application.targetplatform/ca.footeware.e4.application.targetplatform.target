@@ -3,7 +3,7 @@
 <target includeMode="feature" name="ca.footeware.e4.application.target" sequenceNumber="8">
     <locations>
         <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-            <repository location="http://download.eclipse.org/releases/2020-12"/>
+            <repository location="http://download.eclipse.org/releases/2020-09"/>
             <unit id="org.eclipse.emf.ecore.feature.group" version="0.0.0"/>
             <unit id="org.eclipse.equinox.executable.feature.group" version="0.0.0"/>
             <unit id="org.eclipse.rcp.feature.group" version="0.0.0"/>
