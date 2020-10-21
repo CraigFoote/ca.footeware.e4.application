@@ -163,7 +163,6 @@
         <setEntry value="org.eclipse.jdt.debug.ui@default:default"/>
         <setEntry value="org.eclipse.jdt.debug@default:default"/>
         <setEntry value="org.eclipse.jdt.junit.core@default:default"/>
-        <setEntry value="org.eclipse.jdt.junit.runtime*3.5.300.v20200720-0748@default:default"/>
         <setEntry value="org.eclipse.jdt.junit.runtime*3.5.400.v20200918-0332@default:default"/>
         <setEntry value="org.eclipse.jdt.junit5.runtime@default:default"/>
         <setEntry value="org.eclipse.jdt.junit@default:default"/>
