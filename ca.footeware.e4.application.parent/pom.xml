@@ -121,17 +121,18 @@
 				<version>2.5.3</version>
 				<configuration>
 					<preparationGoals>org.eclipse.tycho:tycho-versions-plugin:${tycho-version}:update-eclipse-metadata
-						org.apache.maven.plugins:maven-scm-plugin:${maven-scm-plugin}:add
-						org.apache.maven.plugins:maven-scm-plugin:${maven-scm-plugin}:checkin</preparationGoals>
+						org.apache.maven.plugins:maven-scm-plugin:${maven-scm-plugin.version}:add
+						org.apache.maven.plugins:maven-scm-plugin:${maven-scm-plugin.version}:checkin</preparationGoals>
 					<completionGoals>org.eclipse.tycho:tycho-versions-plugin:${tycho-version}:update-eclipse-metadata
-						org.apache.maven.plugins:maven-scm-plugin:${maven-scm-plugin}:add
-						org.apache.maven.plugins:maven-scm-plugin:${maven-scm-plugin}:checkin</completionGoals>
+						org.apache.maven.plugins:maven-scm-plugin:${maven-scm-plugin.version}:add
+						org.apache.maven.plugins:maven-scm-plugin:${maven-scm-plugin.version}:checkin</completionGoals>
 				</configuration>
 			</plugin>
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-scm-plugin</artifactId>
+				<version>${maven-scm-plugin.version}</version>
 				<executions>
 					<execution>
 						<id>default-cli</id>
