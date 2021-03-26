@@ -2,7 +2,7 @@
 <feature
       id="ca.footeware.e4.application.feature"
       label="Footeware Application Feature"
-      version="1.4.0"
+      version="1.4.0.qualifier"
       provider-name="Footeware.ca">
 
    <description url="http://Footeware.ca">
