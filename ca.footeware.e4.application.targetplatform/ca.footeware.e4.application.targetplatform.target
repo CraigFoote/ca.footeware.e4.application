@@ -30,19 +30,20 @@
 		    <unit id="org.hamcrest.library" version="0.0.0"/>
 		    <unit id="org.hamcrest.library.source" version="0.0.0"/>
 	    </location>
-	    <location includeSource="true" missingManifest="generate" type="Maven">
-		    <groupId>org.eclipse.jdt</groupId>
-		    <artifactId>org.eclipse.jdt.junit5.runtime</artifactId>
-		    <version>1.0.1100</version>
-		    <type>jar</type>
-	    </location>
 	    <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		    <repository location="http://server:8080/p2/orbit-buildrepo-R20210223232630/"/>
+		    <repository location="http://server:8081/repository/orbit-buildrepo-R20210223232630/"/>
+		    <unit id="org.junit.jupiter.api" version="5.7.1.v20210222-1948"/>
 		    <unit id="org.junit.jupiter.engine" version="5.7.1.v20210222-1948"/>
 		    <unit id="org.junit.jupiter.migrationsupport" version="5.7.1.v20210222-1948"/>
 		    <unit id="org.junit.jupiter.params" version="5.7.1.v20210222-1948"/>
 		    <unit id="org.junit.platform.runner" version="1.7.1.v20210222-1948"/>
 		    <unit id="org.junit.vintage.engine" version="5.7.1.v20210222-1948"/>
+	    </location>
+	    <location includeSource="true" missingManifest="generate" type="Maven">
+		    <groupId>org.eclipse.jdt</groupId>
+		    <artifactId>org.eclipse.jdt.junit5.runtime</artifactId>
+		    <version>1.0.1100</version>
+		    <type>jar</type>
 	    </location>
     </locations>
     <environment>
