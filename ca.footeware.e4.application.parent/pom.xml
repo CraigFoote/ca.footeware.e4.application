@@ -151,7 +151,7 @@
 	</build>
 
 	<scm>
-		<connection>scm:git:https://721d03eef3f27ad765a86fc31bda67a608ae00fb@github.com/CraigFoote/ca.footeware.e4.application.git</connection>
+		<connection>scm:git:https://github.com/CraigFoote/ca.footeware.e4.application.git</connection>
 		<developerConnection>scm:git:https://721d03eef3f27ad765a86fc31bda67a608ae00fb@github.com/CraigFoote/ca.footeware.e4.application.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
