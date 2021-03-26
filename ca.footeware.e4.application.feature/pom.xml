@@ -9,7 +9,7 @@
 	<parent>
 		<groupId>ca.footeware.e4.application</groupId>
 		<artifactId>ca.footeware.e4.application.parent</artifactId>
-		<version>1.3.0-SNAPSHOT</version>
+		<version>1.4.0-SNAPSHOT</version>
 		<relativePath>../ca.footeware.e4.application.parent</relativePath>
 	</parent>
 </project>

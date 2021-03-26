@@ -9,7 +9,7 @@
 	<parent>
 		<groupId>ca.footeware.e4.application</groupId>
 		<artifactId>ca.footeware.e4.application.parent</artifactId>
-		<version>1.3.0-SNAPSHOT</version>
+		<version>1.4.0-SNAPSHOT</version>
 		<relativePath>../ca.footeware.e4.application.parent</relativePath>
 	</parent>
 
@@ -17,25 +17,52 @@
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
 			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<release>15</release>
+				</configuration>
+			</plugin>
+			
+			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-surefire-plugin</artifactId>
 				<version>${tycho.version}</version>
 				<configuration>
 					<useUIHarness>true</useUIHarness>
 					<useUIThread>false</useUIThread>
-					<product>ca.footeware.e4.application.product.product</product>
-					<applicationXMI>Application.e4xmi</applicationXMI>
+					<product>ca.footeware.e4.application.product</product>
 					<application>org.eclipse.e4.ui.workbench.swt.E4Application</application>
+					<appArgLine>-applicationXMI ca.footeware.e4.application.ui/Application.e4xmi</appArgLine>
 				</configuration>
 			</plugin>
+			
 			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>target-platform-configuration</artifactId>
+				<version>${tycho.version}</version>
 				<configuration>
-					<release>11</release>
+					<dependency-resolution>
+						<extraRequirements>
+							<requirement>
+								<type>eclipse-feature</type>
+								<id>ca.footeware.e4.application.feature</id>
+								<versionRange>0.0.0</versionRange>
+							</requirement>
+							<requirement>
+								<type>eclipse-feature</type>
+								<id>org.eclipse.rcp</id>
+								<versionRange>0.0.0</versionRange>
+							</requirement>
+							<requirement>
+								<type>eclipse-feature</type>
+								<id>org.eclipse.pde</id>
+								<versionRange>0.0.0</versionRange>
+							</requirement>
+						</extraRequirements>
+					</dependency-resolution>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
-
 </project>

@@ -2,12 +2,11 @@
 <?eclipse version="3.4"?>
 <plugin>
    <extension
-         id="ca.footeware.e4.application.product.product"
+         id="product"
          point="org.eclipse.core.runtime.products">
       <product
             application="org.eclipse.e4.ui.workbench.swt.E4Application"
-            description="Fuggin&apos; amazing"
-            name="Footeware">
+            name="ca.footeware.e4.application.product">
          <property
                name="windowImages"
                value="icons/icon16.png,icons/icon32.png,icons/icon48.png,icons/icon64.png,icons/icon128.png,icons/icon256.png">
@@ -37,19 +36,17 @@
                value="platform:/plugin/ca.footeware.e4.application.ui/css/default.css">
          </property>
          <property
-               name="applicationXMI"
-               value="ca.footeware.e4.application.product/Application.e4xmi">
-         </property>
-         <property
                name="appName"
-               value="Footeware">
+               value="ca.footeware.e4.application.product">
          </property>
          <property
                name="preferenceCustomization"
                value="plugin_customization.ini">
          </property>
+         <property
+   				name="applicationXMI"
+   				value="ca.footeware.e4.application.ui/Application.e4xmi">
+		</property>
       </product>
    </extension>
-
-
 </plugin>

@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Footeware Product
 Bundle-SymbolicName: ca.footeware.e4.application.product;singleton:=true
-Bundle-Version: 1.3.0.qualifier
+Bundle-Version: 1.4.0.qualifier
 Bundle-Vendor: Footeware.ca
-Bundle-RequiredExecutionEnvironment: JavaSE-11
-Require-Bundle: org.eclipse.equinox.app
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Require-Bundle: org.eclipse.equinox.app;bundle-version="1.5.100"
