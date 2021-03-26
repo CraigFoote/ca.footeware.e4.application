@@ -48,6 +48,11 @@ public class AboutDialog extends Dialog {
 		return new Point(450, 400);
 	}
 
+	protected void configureShell(Shell shell) {
+		super.configureShell(shell);
+		shell.setText("About");
+	}
+
 	@Override
 	protected void createButtonsForButtonBar(Composite parent) {
 		createButton(parent, IDialogConstants.OK_ID, IDialogConstants.OK_LABEL, true);
@@ -77,4 +82,5 @@ public class AboutDialog extends Dialog {
 
 		return super.createDialogArea(parent);
 	}
+
 }
