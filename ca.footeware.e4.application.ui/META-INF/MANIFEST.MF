@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Footeware Application UI
 Bundle-SymbolicName: ca.footeware.e4.application.ui;singleton:=true
-Bundle-Version: 1.4.0
+Bundle-Version: 1.4.0.qualifier
 Bundle-Vendor: Footeware.ca
 Export-Package: ca.footeware.e4.application.ui.dialogs,
  ca.footeware.e4.application.ui.handlers
