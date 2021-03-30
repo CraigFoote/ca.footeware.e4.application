@@ -31,7 +31,7 @@
 				<configuration>
 					<products>
 						<product>
-							<id>ca.footeware.e4.application.product.product</id>
+							<id>ca.footeware.e4.application</id>
 						</product>
 					</products>
 				</configuration>

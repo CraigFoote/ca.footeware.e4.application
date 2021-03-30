@@ -40,13 +40,13 @@
                value="ca.footeware.e4.application.product">
          </property>
          <property
-               name="preferenceCustomization"
-               value="plugin_customization.ini">
-         </property>
-         <property
    				name="applicationXMI"
    				value="ca.footeware.e4.application.ui/Application.e4xmi">
 		</property>
+         <property
+               name="preferenceCustomization"
+               value="plugin_customization.ini">
+         </property>
       </product>
    </extension>
 </plugin>

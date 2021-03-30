@@ -33,7 +33,7 @@
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
     <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Xms256m -Xmx2g"/>
     <stringAttribute key="pde.version" value="3.3"/>
-    <stringAttribute key="product" value="ca.footeware.e4.application.product.product"/>
+    <stringAttribute key="product" value="ca.footeware.e4.application.product"/>
     <setAttribute key="selected_target_bundles">
         <setEntry value="com.ibm.icu@default:default"/>
         <setEntry value="com.sun.jna.platform@default:default"/>
