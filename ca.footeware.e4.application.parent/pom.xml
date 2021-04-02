@@ -136,7 +136,7 @@
 
 	<scm>
 		<connection>scm:git:https://github.com/CraigFoote/ca.footeware.e4.application.git</connection>
-		<developerConnection>https://github.com/CraigFoote/ca.footeware.e4.application.git</developerConnection>
+		<developerConnection>scm:git:https://github.com/CraigFoote/ca.footeware.e4.application.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 
