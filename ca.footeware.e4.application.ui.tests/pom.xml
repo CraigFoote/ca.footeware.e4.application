@@ -29,9 +29,9 @@
 				<configuration>
 					<useUIHarness>true</useUIHarness>
 					<useUIThread>false</useUIThread>
-					<product>ca.footeware.e4.application.product</product>
+					<product>ca.footeware.e4.application</product>
 					<application>org.eclipse.e4.ui.workbench.swt.E4Application</application>
-					<appArgLine>-applicationXMI ca.footeware.e4.application.ui/Application.e4xmi</appArgLine>
+					<appArgLine>-applicationXMI Application.e4xmi</appArgLine>
 				</configuration>
 			</plugin>
 			

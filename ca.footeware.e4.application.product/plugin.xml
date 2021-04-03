@@ -6,6 +6,7 @@
          point="org.eclipse.core.runtime.products">
       <product
             application="org.eclipse.e4.ui.workbench.swt.E4Application"
+            description="Footeware.ca RCP Product"
             name="ca.footeware.e4.application">
          <property
                name="windowImages"
@@ -17,7 +18,7 @@
          </property>
          <property
                name="aboutImage"
-               value="platform:/plugin/ca.footeware.e4.application.ui/icons/about.png">
+               value="icons/about.png">
          </property>
          <property
                name="startupForegroundColor"
@@ -33,7 +34,7 @@
          </property>
          <property
                name="applicationCSS"
-               value="platform:/plugin/ca.footeware.e4.application.ui/css/default.css">
+               value="css/default.css">
          </property>
          <property
                name="appName"
@@ -41,7 +42,7 @@
          </property>
          <property
    				name="applicationXMI"
-   				value="ca.footeware.e4.application.ui/Application.e4xmi">
+   				value="Application.e4xmi">
 		</property>
          <property
                name="preferenceCustomization"
