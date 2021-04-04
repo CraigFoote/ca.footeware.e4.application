@@ -3,12 +3,6 @@
 
 <product name="ca.footeware.e4.application" uid="ca.footeware.e4.application" id="ca.footeware.e4.application.product.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.4.0.qualifier" useFeatures="true" includeLaunchers="true">
 
-   <aboutInfo>
-      <image path="/ca.footeware.e4.application.product/icons/about.png"/>
-      <text>
-         http://Footeware.ca
-      </text>
-   </aboutInfo>
 
    <configIni use="default">
    </configIni>
