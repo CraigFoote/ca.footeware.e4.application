@@ -68,6 +68,7 @@ public class AboutDialog extends Dialog {
 		Bundle bundle = FrameworkUtil.getBundle(this.getClass());
 		// use the org.eclipse.core.runtime.Path as import
 		URL url = FileLocator.find(bundle, new Path("icons/about.png"), null);
+		System.err.println("url="+url);
 		// get an imageDescriptor and create Image object
 		ImageDescriptor imageDescriptor = ImageDescriptor.createFromURL(url);
 		Image image = resManager.createImage(imageDescriptor);

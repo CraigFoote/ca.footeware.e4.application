@@ -13,14 +13,6 @@
                value="icons/icon16.png,icons/icon32.png,icons/icon48.png,icons/icon64.png,icons/icon128.png,icons/icon256.png">
          </property>
          <property
-               name="aboutText"
-               value="http://Footeware.ca">
-         </property>
-         <property
-               name="aboutImage"
-               value="icons/about.png">
-         </property>
-         <property
                name="startupForegroundColor"
                value="000000">
          </property>
@@ -34,7 +26,7 @@
          </property>
          <property
                name="applicationCSS"
-               value="css/default.css">
+               value="platform:/plugin/ca.footeware.e4.application.product/css/default.css">
          </property>
          <property
                name="appName"
