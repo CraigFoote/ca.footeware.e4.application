@@ -28,7 +28,9 @@ import org.osgi.framework.Bundle;
 import org.osgi.framework.FrameworkUtil;
 
 /**
- * @author Footeware.ca
+ * Shows information about the application.
+ * 
+ * @author <a href="http://Footeware.ca">Footeware.ca</a>
  *
  */
 public class AboutDialog extends Dialog {
@@ -48,6 +50,7 @@ public class AboutDialog extends Dialog {
 		return new Point(450, 400);
 	}
 
+	@Override
 	protected void configureShell(Shell shell) {
 		super.configureShell(shell);
 		shell.setText("About");
@@ -68,7 +71,6 @@ public class AboutDialog extends Dialog {
 		Bundle bundle = FrameworkUtil.getBundle(this.getClass());
 		// use the org.eclipse.core.runtime.Path as import
 		URL url = FileLocator.find(bundle, new Path("icons/about.png"), null);
-		System.err.println("url="+url);
 		// get an imageDescriptor and create Image object
 		ImageDescriptor imageDescriptor = ImageDescriptor.createFromURL(url);
 		Image image = resManager.createImage(imageDescriptor);
@@ -77,7 +79,7 @@ public class AboutDialog extends Dialog {
 		imageLabel.setImage(image);
 
 		Link link = new Link(composite, SWT.NONE);
-		link.setText("<a>http://footeware.ca</a>");
+		link.setText("<a>http://Footeware.ca</a>");
 		link.addListener(SWT.Selection, event -> Program.launch(event.text));
 		GridDataFactory.swtDefaults().align(SWT.LEFT, SWT.TOP).applyTo(link);
 

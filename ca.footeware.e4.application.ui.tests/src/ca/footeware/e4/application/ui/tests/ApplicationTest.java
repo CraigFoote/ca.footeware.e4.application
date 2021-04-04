@@ -13,14 +13,13 @@ import org.eclipse.swtbot.e4.finder.widgets.SWTWorkbenchBot;
 import org.eclipse.swtbot.swt.finder.junit5.SWTBotJunit5Extension;
 import org.eclipse.swtbot.swt.finder.widgets.SWTBotShell;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.FrameworkUtil;
 
 /**
- * @author Footeware.ca
+ * @author <a href="http://Footeware.ca">Footeware.ca</a>
  *
  */
 @ExtendWith(SWTBotJunit5Extension.class)
@@ -42,7 +41,7 @@ class ApplicationTest {
 		bot.menu("Help").menu("About").click();
 		for (SWTBotShell shell : bot.shells()) {
 			if (shell.getText().equals("About")) {
-				assertTrue(shell.bot().link("<a>http://footeware.ca</a>").isVisible());
+				assertTrue(shell.bot().link("<a>http://Footeware.ca</a>").isVisible());
 				shell.bot().button("OK").click();
 			}
 		}
@@ -68,15 +67,5 @@ class ApplicationTest {
 		assertFalse(bot.menu("Edit").menu("Cut").isEnabled());
 		assertFalse(bot.menu("Edit").menu("Copy").isEnabled());
 		assertFalse(bot.menu("Edit").menu("Paste").isEnabled());
-	}
-	
-	@Test
-	@Disabled
-	public void testWindowMenu() {
-		assertTrue(bot.menu("Window").menu("Show View").isVisible());
-		assertTrue(bot.menu("Window").menu("Show View").isEnabled());
-
-		assertTrue(bot.menu("Window").menu("Perspective").isVisible());
-		assertTrue(bot.menu("Window").menu("Perspective").isEnabled());
 	}
 }

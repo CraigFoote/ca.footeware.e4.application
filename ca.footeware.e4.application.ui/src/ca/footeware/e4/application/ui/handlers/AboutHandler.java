@@ -8,7 +8,7 @@ import ca.footeware.e4.application.ui.dialogs.AboutDialog;
 
 /**
  * 
- * @author Footeware.ca
+ * @author <a href="http://Footeware.ca">Footeware.ca</a>
  *
  */
 public class AboutHandler {
