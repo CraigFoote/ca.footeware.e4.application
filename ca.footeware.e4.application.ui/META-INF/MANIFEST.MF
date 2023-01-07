@@ -19,5 +19,4 @@ Require-Bundle: org.eclipse.e4.core.di.annotations,
 Automatic-Module-Name: ca.footeware.e4.application
 Import-Package: javax.annotation,
  javax.inject
-Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-18

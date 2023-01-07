@@ -31,7 +31,7 @@
 					<useUIThread>false</useUIThread>
 					<product>ca.footeware.e4.application.product</product>
 					<application>org.eclipse.e4.ui.workbench.swt.E4Application</application>
-					<appArgLine>-applicationXMI ca.footeware.e4.application.product/Application.e4xmi</appArgLine>
+					<appArgLine>-applicationXMI ca.footeware.e4.application.ui/Application.e4xmi</appArgLine>
 				</configuration>
 			</plugin>
 			
