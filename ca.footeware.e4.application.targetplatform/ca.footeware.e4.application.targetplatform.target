@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
-<target includeMode="feature" name="ca.footeware.e4.application.target" sequenceNumber="12">
+<target includeMode="feature" name="ca.footeware.e4.application.target" sequenceNumber="13">
     <locations>
         <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
             <repository location="http://download.eclipse.org/releases/2022-12"/>
@@ -36,7 +36,7 @@
 		    <unit id="org.junit.jupiter.migrationsupport" version="0.0.0"/>
 		    <unit id="org.junit.jupiter.params" version="0.0.0"/>
 		    <unit id="org.junit.platform.runner" version="0.0.0"/>
-		    <unit id="org.junit.vintage.engine" version="0.0.0"/>
+		    <unit id="org.slf4j.binding.simple" version="0.0.0"/>
 	    </location>
     </locations>
     <environment>

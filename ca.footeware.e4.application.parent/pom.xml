@@ -14,7 +14,6 @@
 	<modules>
 		<module>../ca.footeware.e4.application.ui</module>
 		<module>../ca.footeware.e4.application.feature</module>
-		<module>../ca.footeware.e4.application.product</module>
 		<module>../ca.footeware.e4.application.targetplatform</module>
 		<module>../ca.footeware.e4.application.repository</module>
 		<module>../ca.footeware.e4.application.ui.tests</module>
@@ -57,11 +56,11 @@
 							<ws>win32</ws>
 							<arch>x86_64</arch>
 						</environment>
-<!--						<environment>-->
-<!--							<os>macosx</os>-->
-<!--							<ws>cocoa</ws>-->
-<!--							<arch>x86_64</arch>-->
-<!--						</environment>-->
+						<environment>
+							<os>macosx</os>
+							<ws>cocoa</ws>
+							<arch>x86_64</arch>
+						</environment>
 					</environments>
 				</configuration>
 			</plugin>
@@ -109,22 +108,6 @@
 				<version>3.19.0</version>
 			</plugin>
 		</plugins>
-		<pluginManagement>
-			<plugins>
-				<plugin>
-					<groupId>com.itemis.maven.plugins</groupId>
-					<artifactId>unleash-maven-plugin</artifactId>
-					<version>2.10.0</version>
-					<dependencies>
-						<dependency>
-							<groupId>com.itemis.maven.plugins</groupId>
-							<artifactId>unleash-scm-provider-git</artifactId>
-							<version>2.3.0</version>
-						</dependency>
-					</dependencies>
-				</plugin>
-			</plugins>
-		</pluginManagement>
 	</build>
 	<scm>
 		<connection>scm:git:https://github.com/CraigFoote/ca.footeware.e4.application.git</connection>
