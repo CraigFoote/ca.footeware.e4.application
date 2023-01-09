@@ -16,7 +16,7 @@ Require-Bundle: org.eclipse.e4.core.di.annotations,
  org.eclipse.e4.core.commands,
  org.eclipse.e4.core.di,
  org.eclipse.e4.core.contexts
+Bundle-RequiredExecutionEnvironment: JavaSE-18
 Automatic-Module-Name: ca.footeware.e4.application
 Import-Package: javax.annotation,
- javax.inject
-Bundle-RequiredExecutionEnvironment: JavaSE-18
+ javax.inject;version="1.0.0"
