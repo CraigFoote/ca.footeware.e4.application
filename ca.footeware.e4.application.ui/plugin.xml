@@ -9,11 +9,11 @@
             name="Footeware.e4">
          <property
                name="windowImages"
-               value="/ca.footeware.e4.application.product/icons/icon16.png,/ca.footeware.e4.application.product/icons/icon32.png,/ca.footeware.e4.application.product/icons/icon48.png,/ca.footeware.e4.application.product/icons/icon64.png,/ca.footeware.e4.application.product/icons/icon128.png,/ca.footeware.e4.application.product/icons/icon256.png">
+               value="icons/icon16.png,icons/icon32.png,icons/icon48.png,icons/icon64.png,icons/icon128.png,icons/icon256.png">
          </property>
          <property
                name="applicationCSS"
-               value="/ca.footeware.e4.application.product/css/default.css">
+               value="platform:/plugin/ca.footeware.e4.application.product/css/default.css">
          </property>
          <property
                name="appName"
