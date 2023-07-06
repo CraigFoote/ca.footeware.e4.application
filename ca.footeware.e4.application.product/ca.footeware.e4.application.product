@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Footeware.e4" uid="ca.footeware.e4.application.product" id="ca.footeware.e4.application.ui.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.5.0.qualifier" useFeatures="true" includeLaunchers="true" autoIncludeRequirements="true">
-
+<product name="Footeware.e4" uid="ca.footeware.e4.application.product" id="ca.footeware.e4.application.ui.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.6.0.qualifier" useFeatures="true" includeLaunchers="true" autoIncludeRequirements="true">
 
    <configIni use="default">
    </configIni>
@@ -25,7 +24,6 @@
          <bmp/>
       </win>
    </launcher>
-
 
    <vm>
       <linux include="true">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-19</linux>
