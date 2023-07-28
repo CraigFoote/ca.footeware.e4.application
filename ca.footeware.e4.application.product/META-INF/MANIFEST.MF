@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Footeware Product
+Bundle-SymbolicName: ca.footeware.e4.application.product;singleton:=true
+Bundle-Version: 1.7.0.qualifier
+Require-Bundle: org.eclipse.equinox.app
+Bundle-Vendor: Footeware.ca
+Automatic-Module-Name: ca.footeware.e4.application.product
+Bundle-RequiredExecutionEnvironment: JavaSE-20

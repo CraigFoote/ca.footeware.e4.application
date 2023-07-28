@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Footeware.e4" uid="ca.footeware.e4.application.product" id="ca.footeware.e4.application.ui.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.6.0.qualifier" useFeatures="true" includeLaunchers="true" autoIncludeRequirements="true">
+<product name="Footeware.e4" uid="ca.footeware.e4.application.product" id="ca.footeware.e4.application.ui.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.7.0.qualifier" useFeatures="true" includeLaunchers="true" autoIncludeRequirements="true">
+
 
    <configIni use="default">
    </configIni>
@@ -13,17 +14,18 @@
       </vmArgsMac>
    </launcherArgs>
 
-   <windowImages i16="/ca.footeware.e4.application.ui/icons/icon16.png" i32="/ca.footeware.e4.application.ui/icons/icon32.png" i48="/ca.footeware.e4.application.ui/icons/icon48.png" i64="/ca.footeware.e4.application.ui/icons/icon64.png" i128="/ca.footeware.e4.application.ui/icons/icon128.png" i256="/ca.footeware.e4.application.ui/icons/icon256.png"/>
+   <windowImages i16="/ca.footeware.e4.application.product/icons/icon16.png" i32="/ca.footeware.e4.application.product/icons/icon32.png" i48="/ca.footeware.e4.application.product/icons/icon48.png" i64="/ca.footeware.e4.application.product/icons/icon64.png" i128="/ca.footeware.e4.application.product/icons/icon128.png" i256="/ca.footeware.e4.application.product/icons/icon256.png"/>
 
    <splash
       location="ca.footeware.e4.application.product" />
    <launcher name="Footeware">
-      <linux icon="/ca.footeware.e4.application.ui/icons/icon.xpm"/>
+      <linux icon="/ca.footeware.e4.application.product/icons/icon.xpm"/>
       <win useIco="true">
-         <ico path="/ca.footeware.e4.application.ui/icons/icon.ico"/>
+         <ico path="/ca.footeware.e4.application.product/icons/icon.ico"/>
          <bmp/>
       </win>
    </launcher>
+
 
    <vm>
       <linux include="true">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-20</linux>
@@ -324,10 +326,12 @@ version(s), and exceptions or additional permissions here}.&quot;
 
    <configurations>
       <plugin id="org.apache.felix.scr" autoStart="true" startLevel="2" />
-      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="3" />
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="4" />
       <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
-      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="3" />
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+      <plugin id="org.eclipse.update.configurator" autoStart="true" startLevel="4" />
    </configurations>
 
    <preferencesInfo>

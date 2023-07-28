@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin>
 
-   <extension
-         id="product"
-         point="org.eclipse.core.runtime.products">
-      <product
-            application="org.eclipse.e4.ui.workbench.swt.E4Application"
-            name="Footeware.e4">
-         <property
-               name="windowImages"
-               value="icons/icon16.png,icons/icon32.png,icons/icon48.png,icons/icon64.png,icons/icon128.png,icons/icon256.png">
-         </property>
-         <property
-               name="applicationCSS"
-               value="platform:/plugin/ca.footeware.e4.application.product/css/default.css">
-         </property>
-         <property
-               name="appName"
-               value="Footeware.e4">
-         </property>
-     </product>
-   </extension>
+	<extension
+		id="product"
+		point="org.eclipse.core.runtime.products">
+		<product
+			application="org.eclipse.e4.ui.workbench.swt.E4Application"
+			name="Footeware.e4">
+			<property
+				name="windowImages"
+				value="icons/icon16.png,icons/icon32.png,icons/icon48.png,icons/icon64.png,icons/icon128.png,icons/icon256.png">
+			</property>
+			<property
+				name="applicationCSS"
+				value="platform:/plugin/ca.footeware.e4.application.product/css/default.css">
+			</property>
+			<property
+				name="appName"
+				value="Footeware.e4">
+			</property>
+		</product>
+	</extension>
 
 </plugin>
