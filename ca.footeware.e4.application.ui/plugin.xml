@@ -13,7 +13,7 @@
 			</property>
 			<property
 				name="applicationCSS"
-				value="platform:/plugin/ca.footeware.e4.application.product/css/default.css">
+				value="platform:/plugin/ca.footeware.e4.application.ui/css/default.css">
 			</property>
 			<property
 				name="appName"
