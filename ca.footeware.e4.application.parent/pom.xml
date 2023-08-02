@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>ca.footeware.e4.application</groupId>
 	<artifactId>ca.footeware.e4.application.parent</artifactId>
-	<version>1.7.0-SNAPSHOT</version>
+	<version>1.8.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<properties>
 		<tycho.version>4.0.0</tycho.version>
@@ -15,7 +15,6 @@
 		<module>../ca.footeware.e4.application.ui</module>
 		<module>../ca.footeware.e4.application.feature</module>
 		<module>../ca.footeware.e4.application.targetplatform</module>
-		<module>../ca.footeware.e4.application.repository</module>
 		<module>../ca.footeware.e4.application.product</module>
 		<module>../ca.footeware.e4.application.ui.tests</module>
 	</modules>
@@ -42,7 +41,8 @@
 					<target>
 						<artifact>
 							<groupId>${project.groupId}</groupId>
-							<artifactId>ca.footeware.e4.application.targetplatform</artifactId>
+							<artifactId>
+								ca.footeware.e4.application.targetplatform</artifactId>
 							<version>${project.version}</version>
 						</artifact>
 					</target>
@@ -111,8 +111,10 @@
 		</plugins>
 	</build>
 	<scm>
-		<connection>scm:git:https://github.com/CraigFoote/ca.footeware.e4.application.git</connection>
-		<developerConnection>scm:git:https://github.com/CraigFoote/ca.footeware.e4.application.git</developerConnection>
+		<connection>
+			scm:git:https://github.com/CraigFoote/ca.footeware.e4.application.git</connection>
+		<developerConnection>
+			scm:git:https://github.com/CraigFoote/ca.footeware.e4.application.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 	<repositories>
@@ -124,7 +126,8 @@
 		<repository>
 			<id>orbit</id>
 			<layout>p2</layout>
-			<url>https://download.eclipse.org/tools/orbit/downloads/drops/R20230531010532/repository/</url>
+			<url>
+				https://download.eclipse.org/tools/orbit/downloads/drops/R20230531010532/repository/</url>
 		</repository>
 	</repositories>
 </project>
