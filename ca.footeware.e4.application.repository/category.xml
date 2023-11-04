@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site>
-   <feature id="ca.footeware.e4.application.feature">
-      <category name="ca.footeware.e4"/>
-   </feature>
-   <category-def name="ca.footeware.e4" label="Footeware e4"/>
-</site>

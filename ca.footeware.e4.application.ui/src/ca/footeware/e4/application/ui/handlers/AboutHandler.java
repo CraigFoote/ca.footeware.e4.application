@@ -7,12 +7,12 @@ import org.eclipse.swt.widgets.Shell;
 import ca.footeware.e4.application.ui.dialogs.AboutDialog;
 
 /**
- * 
+ *
  * @author <a href="http://Footeware.ca">Footeware.ca</a>
  *
  */
 public class AboutHandler {
-	
+
 	/**
 	 * @param shell {@link Shell}
 	 */
