@@ -7,9 +7,9 @@
         <children xsi:type="menu:DirectMenuItem" xmi:id="_cxmawGOdEeOKpoYk4dx9Xg" elementId="org.eclipse.ui.file.exit" label="Exit" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/quit.png" mnemonics="x" contributionURI="bundleclass://ca.footeware.e4.application.ui/ca.footeware.e4.application.ui.handlers.ExitHandler"/>
       </children>
       <children xsi:type="menu:Menu" xmi:id="_3ws-cJ9GEeOMypIx9SPPbw" elementId="org.eclipse.ui.edit" label="Edit" mnemonics="E">
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_Kt_H0J9HEeOMypIx9SPPbw" elementId="org.eclipse.ui.edit.cut.menu" label="Cut" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/cut_disabled.gif" enabled="false" mnemonics="t" command="__8lawJ9GEeOMypIx9SPPbw"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_lrlRcKAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.copy.menu" label="Copy" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/copy.gif" enabled="false" mnemonics="C" command="_TNoIYKAdEeOX_Kv-cK26kg"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_wQT0cKAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.paste.menu" label="Paste" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/paste.gif" enabled="false" mnemonics="P" command="_eNWlUKAdEeOX_Kv-cK26kg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_Kt_H0J9HEeOMypIx9SPPbw" elementId="org.eclipse.ui.edit.cut.menu" label="Cut" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/cut-16.png" enabled="false" mnemonics="" command="__8lawJ9GEeOMypIx9SPPbw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_lrlRcKAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.copy.menu" label="Copy" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/copy-16.png" enabled="false" mnemonics="" command="_TNoIYKAdEeOX_Kv-cK26kg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_wQT0cKAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.paste.menu" label="Paste" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/paste-16.png" enabled="false" mnemonics="" command="_eNWlUKAdEeOX_Kv-cK26kg"/>
       </children>
       <children xsi:type="menu:Menu" xmi:id="_o1lskLeuEem4BIDrX_9nPw" elementId="ca.footeware.e4.application.menu.window" label="Window" mnemonics="W">
         <children xsi:type="menu:Menu" xmi:id="_v2Z6QNReEeqWR_vYcjyFZQ" elementId="ca.footeware.e4.application.ui.menu.showview" label="Show View" mnemonics="V"/>
@@ -21,10 +21,11 @@
     </mainMenu>
     <trimBars xmi:id="_SkbjgHSxEeOsjItha9GaIg" elementId="ca.footeware.e4.application.trimbar">
       <children xsi:type="menu:ToolBar" xmi:id="_UWG8gHSxEeOsjItha9GaIg" elementId="ca.footeware.e4.application.toolbar">
-        <children xsi:type="menu:HandledToolItem" xmi:id="__iKN4KAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.cut.toolbar" label="Cut" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/cut.gif" enabled="false" command="__8lawJ9GEeOMypIx9SPPbw"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_P8ocQKAeEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.copy.toolbar" label="Copy" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/copy.gif" enabled="false" command="_TNoIYKAdEeOX_Kv-cK26kg"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_WIpSkKAeEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.paste.toolbar" label="Paste" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/paste.gif" enabled="false" command="_eNWlUKAdEeOX_Kv-cK26kg"/>
-        <children xsi:type="menu:ToolBarSeparator" xmi:id="_edRbMKAeEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.separator.toolbar"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_jMsr4HwqEe6Cx9CENEMz0Q" elementId="ca.footeware.e4.application.ui.toolbarseparator.0"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="__iKN4KAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.cut.toolbar" label="Cut" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/cut-16.png" enabled="false" command="__8lawJ9GEeOMypIx9SPPbw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_P8ocQKAeEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.copy.toolbar" label="Copy" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/copy-16.png" enabled="false" command="_TNoIYKAdEeOX_Kv-cK26kg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_WIpSkKAeEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.paste.toolbar" label="Paste" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/paste-16.png" enabled="false" command="_eNWlUKAdEeOX_Kv-cK26kg"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_edRbMKAeEeOX_Kv-cK26kg" elementId="ca.footeware.e4.application.ui.toolbarseparator.1"/>
       </children>
     </trimBars>
   </children>
@@ -37,9 +38,9 @@
     <children xmi:id="_W-Akel1bEeOb1twxUJ3K6w" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_W-Ake11bEeOb1twxUJ3K6w" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
   </rootContext>
-  <commands xmi:id="__8lawJ9GEeOMypIx9SPPbw" elementId="org.eclipse.ui.edit.cut" commandName="Cut" category="_MYdAUKAdEeOX_Kv-cK26kg"/>
-  <commands xmi:id="_TNoIYKAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.copy" commandName="Copy" category="_MYdAUKAdEeOX_Kv-cK26kg"/>
-  <commands xmi:id="_eNWlUKAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.paste" commandName="Paste" category="_MYdAUKAdEeOX_Kv-cK26kg"/>
+  <commands xmi:id="__8lawJ9GEeOMypIx9SPPbw" elementId="org.eclipse.ui.edit.cut" commandName="Cut" category="_MYdAUKAdEeOX_Kv-cK26kg" commandIconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/cut-16.png"/>
+  <commands xmi:id="_TNoIYKAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.copy" commandName="Copy" category="_MYdAUKAdEeOX_Kv-cK26kg" commandIconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/copy-16.png"/>
+  <commands xmi:id="_eNWlUKAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.paste" commandName="Paste" category="_MYdAUKAdEeOX_Kv-cK26kg" commandIconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/paste-16.png"/>
   <addons xmi:id="_W-Akcl1bEeOb1twxUJ3K6w" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_W-Akc11bEeOb1twxUJ3K6w" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_W-AkdF1bEeOb1twxUJ3K6w" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
