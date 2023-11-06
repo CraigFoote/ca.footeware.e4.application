@@ -20,13 +20,7 @@
       </children>
     </mainMenu>
     <trimBars xmi:id="_SkbjgHSxEeOsjItha9GaIg" elementId="ca.footeware.e4.application.trimbar">
-      <children xsi:type="menu:ToolBar" xmi:id="_UWG8gHSxEeOsjItha9GaIg" elementId="ca.footeware.e4.application.toolbar">
-        <children xsi:type="menu:ToolBarSeparator" xmi:id="_jMsr4HwqEe6Cx9CENEMz0Q" elementId="ca.footeware.e4.application.ui.toolbarseparator.0"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="__iKN4KAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.cut.toolbar" label="Cut" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/cut-16.png" enabled="false" command="__8lawJ9GEeOMypIx9SPPbw"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_P8ocQKAeEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.copy.toolbar" label="Copy" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/copy-16.png" enabled="false" command="_TNoIYKAdEeOX_Kv-cK26kg"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_WIpSkKAeEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.paste.toolbar" label="Paste" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/paste-16.png" enabled="false" command="_eNWlUKAdEeOX_Kv-cK26kg"/>
-        <children xsi:type="menu:ToolBarSeparator" xmi:id="_edRbMKAeEeOX_Kv-cK26kg" elementId="ca.footeware.e4.application.ui.toolbarseparator.1"/>
-      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_UWG8gHSxEeOsjItha9GaIg" elementId="ca.footeware.e4.application.toolbar"/>
     </trimBars>
   </children>
   <bindingTables xmi:id="_qMzkcKAeEeOX_Kv-cK26kg" elementId="ca.footeware.e4.application.bindingtable" bindingContext="_W-AkeV1bEeOb1twxUJ3K6w">
@@ -38,6 +32,15 @@
     <children xmi:id="_W-Akel1bEeOb1twxUJ3K6w" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_W-Ake11bEeOb1twxUJ3K6w" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
   </rootContext>
+  <toolBarContributions xmi:id="_D_cvQHw2Ee69SYlhCdBxNw" elementId="ca.footeware.e4.application.ui.toolbarcontribution.0" parentId="ca.footeware.e4.application.toolbar" positionInParent="">
+    <children xsi:type="menu:ToolBarSeparator" xmi:id="_jMsr4HwqEe6Cx9CENEMz0Q" elementId="ca.footeware.e4.application.ui.toolbarseparator.0"/>
+  </toolBarContributions>
+  <toolBarContributions xmi:id="_gkXWsHw1Ee69SYlhCdBxNw" elementId="ca.footeware.e4.application.ui.toolbarcontribution.1" parentId="ca.footeware.e4.application.toolbar" positionInParent="">
+    <children xsi:type="menu:HandledToolItem" xmi:id="__iKN4KAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.cut.toolbar" label="Cut" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/cut-16.png" command="__8lawJ9GEeOMypIx9SPPbw"/>
+    <children xsi:type="menu:HandledToolItem" xmi:id="_P8ocQKAeEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.copy.toolbar" label="Copy" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/copy-16.png" command="_TNoIYKAdEeOX_Kv-cK26kg"/>
+    <children xsi:type="menu:HandledToolItem" xmi:id="_WIpSkKAeEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.paste.toolbar" label="Paste" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/paste-16.png" command="_eNWlUKAdEeOX_Kv-cK26kg"/>
+    <children xsi:type="menu:ToolBarSeparator" xmi:id="_edRbMKAeEeOX_Kv-cK26kg" elementId="ca.footeware.e4.application.ui.toolbarseparator.1"/>
+  </toolBarContributions>
   <commands xmi:id="__8lawJ9GEeOMypIx9SPPbw" elementId="org.eclipse.ui.edit.cut" commandName="Cut" category="_MYdAUKAdEeOX_Kv-cK26kg" commandIconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/cut-16.png"/>
   <commands xmi:id="_TNoIYKAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.copy" commandName="Copy" category="_MYdAUKAdEeOX_Kv-cK26kg" commandIconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/copy-16.png"/>
   <commands xmi:id="_eNWlUKAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.paste" commandName="Paste" category="_MYdAUKAdEeOX_Kv-cK26kg" commandIconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/paste-16.png"/>
