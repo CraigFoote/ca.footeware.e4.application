@@ -38,6 +38,11 @@
 		    <unit id="org.junit.platform.runner" version="0.0.0"/>
 		    <unit id="org.slf4j.binding.simple" version="0.0.0"/>
 	    </location>
+	    <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+		    <repository location="https://www.opcoach.com/repository/latest/"/>
+		    <unit id="com.opcoach.e4.preferences.feature.feature.group" version="1.3.1"/>
+		    <unit id="com.opcoach.e4.preferences.feature.source.feature.group" version="1.3.1"/>
+	    </location>
     </locations>
     <environment>
         <os>linux</os>

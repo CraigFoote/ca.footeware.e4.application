@@ -2,21 +2,24 @@
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_W-AkcF1bEeOb1twxUJ3K6w" elementId="ca.footeware.e4.application" bindingContexts="_W-AkeV1bEeOb1twxUJ3K6w">
   <children xsi:type="basic:TrimmedWindow" xmi:id="_W-AkcV1bEeOb1twxUJ3K6w" elementId="ca.footeware.e4.trimmedwindow" selectedElement="_Wgd4EHStEeOsjItha9GaIg" label="Footeware" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/icon256.png" x="200" y="200" width="1000" height="500">
     <children xsi:type="advanced:PerspectiveStack" xmi:id="_Wgd4EHStEeOsjItha9GaIg" elementId="ca.footeware.e4.application.perspectivestack"/>
-    <mainMenu xmi:id="_X-XYwF1cEeOb1twxUJ3K6w" elementId="ca.footeware.e4.application.menu.main">
+    <mainMenu xmi:id="_X-XYwF1cEeOb1twxUJ3K6w" elementId="org.eclipse.ui.main.menu">
       <children xsi:type="menu:Menu" xmi:id="_Y0SUIF1cEeOb1twxUJ3K6w" elementId="org.eclipse.ui.file" label="File" mnemonics="F">
-        <children xsi:type="menu:DirectMenuItem" xmi:id="_cxmawGOdEeOKpoYk4dx9Xg" elementId="org.eclipse.ui.file.exit" label="Exit" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/quit.png" mnemonics="x" contributionURI="bundleclass://ca.footeware.e4.application.ui/ca.footeware.e4.application.ui.handlers.ExitHandler"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_Nruz0HzlEe612vAQEStsEA"/>
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_Nrx3IHzlEe612vAQEStsEA" elementId="org.eclipse.ui.file.exit" label="Exit" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/quit.png" mnemonics="x" contributionURI="bundleclass://ca.footeware.e4.application.ui/ca.footeware.e4.application.ui.handlers.ExitHandler"/>
       </children>
       <children xsi:type="menu:Menu" xmi:id="_3ws-cJ9GEeOMypIx9SPPbw" elementId="org.eclipse.ui.edit" label="Edit" mnemonics="E">
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_Kt_H0J9HEeOMypIx9SPPbw" elementId="org.eclipse.ui.edit.cut.menu" label="Cut" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/cut-16.png" enabled="false" mnemonics="" command="__8lawJ9GEeOMypIx9SPPbw"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_lrlRcKAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.copy.menu" label="Copy" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/copy-16.png" enabled="false" mnemonics="" command="_TNoIYKAdEeOX_Kv-cK26kg"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_wQT0cKAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.paste.menu" label="Paste" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/paste-16.png" enabled="false" mnemonics="" command="_eNWlUKAdEeOX_Kv-cK26kg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_P1XZ0HzlEe612vAQEStsEA" elementId="org.eclipse.ui.edit.cut.menu" label="Cut" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/cut-16.png" enabled="false" mnemonics="" command="__8lawJ9GEeOMypIx9SPPbw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_P1ZPAHzlEe612vAQEStsEA" elementId="org.eclipse.ui.edit.copy.menu" label="Copy" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/copy-16.png" enabled="false" mnemonics="" command="_TNoIYKAdEeOX_Kv-cK26kg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_P1adIHzlEe612vAQEStsEA" elementId="org.eclipse.ui.edit.paste.menu" label="Paste" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/paste-16.png" enabled="false" mnemonics="" command="_eNWlUKAdEeOX_Kv-cK26kg"/>
       </children>
-      <children xsi:type="menu:Menu" xmi:id="_o1lskLeuEem4BIDrX_9nPw" elementId="ca.footeware.e4.application.menu.window" label="Window" mnemonics="W">
-        <children xsi:type="menu:Menu" xmi:id="_v2Z6QNReEeqWR_vYcjyFZQ" elementId="ca.footeware.e4.application.ui.menu.showview" label="Show View" mnemonics="V"/>
-        <children xsi:type="menu:Menu" xmi:id="_isASQNUeEeqk0J4L3aiPsg" elementId="ca.footeware.e4.application.ui.menu.showperspective" label="Perspective" mnemonics="r"/>
+      <children xsi:type="menu:Menu" xmi:id="_5TKJcHzqEe6zgtKK9f_mcQ" elementId="window" label="Window">
+        <children xsi:type="menu:Menu" xmi:id="_JmhDMHzrEe6zgtKK9f_mcQ" elementId="ca.footeware.e4.application.ui.menu.showview" label="Show View" mnemonics="V"/>
+        <children xsi:type="menu:Menu" xmi:id="_Jmi4YHzrEe6zgtKK9f_mcQ" elementId="ca.footeware.e4.application.ui.menu.showperspective" label="Perspective" mnemonics="r"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_JmkGgHzrEe6zgtKK9f_mcQ"/>
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_gRYRkHzrEe6zgtKK9f_mcQ" elementId="ca.footeware.e4.application.ui.directmenuitem.preferences" label="Preferences" mnemonics="P" contributionURI="bundleclass://com.opcoach.e4.preferences/com.opcoach.e4.preferences.handlers.E4PreferencesHandler"/>
       </children>
-      <children xsi:type="menu:Menu" xmi:id="_zLvPIGv1EeidVMR06CSjrA" elementId="ca.footeware.e4.application.menu.help" label="Help" mnemonics="H">
-        <children xsi:type="menu:DirectMenuItem" xmi:id="_1T2LIGv1EeidVMR06CSjrA" elementId="ca.footeware.e4.application.directmenuitem.about" label="About" mnemonics="A" contributionURI="bundleclass://ca.footeware.e4.application.ui/ca.footeware.e4.application.ui.handlers.AboutHandler"/>
+      <children xsi:type="menu:Menu" xmi:id="_Nz3NYHzrEe6zgtKK9f_mcQ" elementId="ca.footeware.e4.application.ui.menu.help" label="Help" mnemonics="H">
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_Rbur8HzrEe6zgtKK9f_mcQ" elementId="ca.footeware.e4.application.ui.directmenuitem.about" label="About" iconURI="" contributionURI="bundleclass://ca.footeware.e4.application.ui/ca.footeware.e4.application.ui.handlers.AboutHandler"/>
       </children>
     </mainMenu>
     <trimBars xmi:id="_SkbjgHSxEeOsjItha9GaIg" elementId="ca.footeware.e4.application.trimbar">
@@ -32,10 +35,8 @@
     <children xmi:id="_W-Akel1bEeOb1twxUJ3K6w" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_W-Ake11bEeOb1twxUJ3K6w" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
   </rootContext>
-  <toolBarContributions xmi:id="_D_cvQHw2Ee69SYlhCdBxNw" elementId="ca.footeware.e4.application.ui.toolbarcontribution.0" parentId="ca.footeware.e4.application.toolbar" positionInParent="">
-    <children xsi:type="menu:ToolBarSeparator" xmi:id="_jMsr4HwqEe6Cx9CENEMz0Q" elementId="ca.footeware.e4.application.ui.toolbarseparator.0"/>
-  </toolBarContributions>
   <toolBarContributions xmi:id="_gkXWsHw1Ee69SYlhCdBxNw" elementId="ca.footeware.e4.application.ui.toolbarcontribution.1" parentId="ca.footeware.e4.application.toolbar" positionInParent="">
+    <children xsi:type="menu:ToolBarSeparator" xmi:id="_ZrOZwHznEe6zgtKK9f_mcQ" elementId="ca.footeware.e4.application.ui.toolbarseparator.2"/>
     <children xsi:type="menu:HandledToolItem" xmi:id="__iKN4KAdEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.cut.toolbar" label="Cut" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/cut-16.png" command="__8lawJ9GEeOMypIx9SPPbw"/>
     <children xsi:type="menu:HandledToolItem" xmi:id="_P8ocQKAeEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.copy.toolbar" label="Copy" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/copy-16.png" command="_TNoIYKAdEeOX_Kv-cK26kg"/>
     <children xsi:type="menu:HandledToolItem" xmi:id="_WIpSkKAeEeOX_Kv-cK26kg" elementId="org.eclipse.ui.edit.paste.toolbar" label="Paste" iconURI="platform:/plugin/ca.footeware.e4.application.ui/icons/paste-16.png" command="_eNWlUKAdEeOX_Kv-cK26kg"/>

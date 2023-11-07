@@ -11,6 +11,8 @@ import org.eclipse.jface.dialogs.IDialogConstants;
 import org.eclipse.jface.layout.GridDataFactory;
 import org.eclipse.jface.layout.GridLayoutFactory;
 import org.eclipse.swt.SWT;
+import org.eclipse.swt.events.DisposeEvent;
+import org.eclipse.swt.events.DisposeListener;
 import org.eclipse.swt.graphics.Image;
 import org.eclipse.swt.program.Program;
 import org.eclipse.swt.widgets.Button;
@@ -31,6 +33,8 @@ import org.osgi.framework.Version;
  */
 public class AboutDialog extends Dialog {
 
+	private Image image;
+
 	/**
 	 * Constructor.
 	 *
@@ -38,6 +42,14 @@ public class AboutDialog extends Dialog {
 	 */
 	public AboutDialog(Shell parentShell) {
 		super(parentShell);
+		parentShell.addDisposeListener(new DisposeListener() {
+			@Override
+			public void widgetDisposed(DisposeEvent e) {
+				if (image != null && !image.isDisposed()) {
+					image.dispose();
+				}
+			}
+		});
 		setBlockOnOpen(true);
 	}
 
@@ -59,13 +71,13 @@ public class AboutDialog extends Dialog {
 		GridDataFactory.swtDefaults().align(SWT.FILL, SWT.FILL).grab(true, true).applyTo(container);
 		GridLayoutFactory.swtDefaults().spacing(0, 10).applyTo(container);
 
-		Image image;
 		final InputStream in = getClass().getResourceAsStream("/icons/about.png");
 		if (in != null) {
 			try {
 				image = new Image(Display.getDefault(), in);
 				Label imageLabel = new Label(container, SWT.NONE);
 				imageLabel.setImage(image);
+				GridDataFactory.swtDefaults().align(SWT.CENTER, SWT.CENTER).grab(true, true).applyTo(imageLabel);
 			} finally {
 				try {
 					in.close();
