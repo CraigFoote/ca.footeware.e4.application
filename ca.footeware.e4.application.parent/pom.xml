@@ -9,7 +9,7 @@
 	<properties>
 		<tycho.version>4.0.3</tycho.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<executionEnvironment>20</executionEnvironment>
+		<executionEnvironment>22</executionEnvironment>
 	</properties>
 	<modules>
 		<module>../ca.footeware.e4.application.ui</module>
@@ -24,7 +24,7 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.11.0</version>
 				<configuration>
-					<release>20</release>
+					<release>22</release>
 				</configuration>
 			</plugin>
 			<plugin>

@@ -6,7 +6,7 @@ Bundle-Version: 1.10.0.qualifier
 Bundle-Vendor: Footeware.ca
 Fragment-Host: ca.footeware.e4.application.ui;bundle-version="1.10.0"
 Automatic-Module-Name: ca.footeware.e4.application.ui.tests
-Bundle-RequiredExecutionEnvironment: JavaSE-20
+Bundle-RequiredExecutionEnvironment: JavaSE-22
 Require-Bundle: org.eclipse.swtbot.e4.finder,
  org.eclipse.swtbot.eclipse.core,
  org.eclipse.swtbot.eclipse.finder,
