@@ -6,7 +6,7 @@
 		point="org.eclipse.core.runtime.products">
 		<product
 			application="org.eclipse.e4.ui.workbench.swt.E4Application"
-			name="ca.footeware.e4.application">
+			name="Footeware.e4">
 			<property
 				name="windowImages"
 				value="icons/icon16.png,icons/icon32.png,icons/icon48.png,icons/icon64.png,icons/icon128.png,icons/icon256.png">
@@ -17,7 +17,7 @@
 			</property>
 			<property
 				name="appName"
-				value="ca.footeware.e4.application">
+				value="Footeware.e4">
 			</property>
 		</product>
 	</extension>
