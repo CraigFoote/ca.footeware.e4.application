@@ -2,15 +2,18 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	
 	<groupId>ca.footeware.e4.application</groupId>
 	<artifactId>ca.footeware.e4.application.parent</artifactId>
-	<version>1.10.0-SNAPSHOT</version>
+	<version>2.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
+	
 	<properties>
-		<tycho.version>4.0.3</tycho.version>
+		<tycho.version>4.0.13</tycho.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<executionEnvironment>22</executionEnvironment>
+		<executionEnvironment>23</executionEnvironment>
 	</properties>
+	
 	<modules>
 		<module>../ca.footeware.e4.application.ui</module>
 		<module>../ca.footeware.e4.application.feature</module>
@@ -18,13 +21,14 @@
 		<module>../ca.footeware.e4.application.product</module>
 		<module>../ca.footeware.e4.application.ui.tests</module>
 	</modules>
+	
 	<build>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.11.0</version>
+				<version>3.14.0</version>
 				<configuration>
-					<release>22</release>
+					<release>23</release>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -96,15 +100,11 @@
 			<plugin>
 				<groupId>com.github.spotbugs</groupId>
 				<artifactId>spotbugs-maven-plugin</artifactId>
-				<version>4.7.3.6</version>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-pmd-plugin</artifactId>
-				<version>3.21.0</version>
+				<version>4.9.3.0</version>
 			</plugin>
 		</plugins>
 	</build>
+	
 	<scm>
 		<connection>
 			scm:git:https://github.com/CraigFoote/ca.footeware.e4.application.git</connection>
@@ -112,17 +112,17 @@
 			scm:git:https://github.com/CraigFoote/ca.footeware.e4.application.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
+	
 	<repositories>
 		<repository>
-			<id>4.28.0</id>
-			<url>https://download.eclipse.org/releases/2023-09/</url>
+			<id>2025-06</id>
+			<url>https://download.eclipse.org/releases/2025-06/</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
 			<id>orbit</id>
 			<layout>p2</layout>
-			<url>
-				https://download.eclipse.org/tools/orbit/downloads/drops/R20230531010532/repository/</url>
+			<url>https://download.eclipse.org/tools/orbit/simrel/orbit-aggregation/release/4.36.0/</url>
 		</repository>
 	</repositories>
 </project>

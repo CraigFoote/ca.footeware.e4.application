@@ -2,14 +2,14 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Footeware Application Tests
 Bundle-SymbolicName: ca.footeware.e4.application.ui.tests
-Bundle-Version: 1.10.0.qualifier
+Bundle-Version: 2.0.0.qualifier
 Bundle-Vendor: Footeware.ca
-Fragment-Host: ca.footeware.e4.application.ui;bundle-version="1.10.0"
+Fragment-Host: ca.footeware.e4.application.ui;bundle-version="2.0.0"
 Automatic-Module-Name: ca.footeware.e4.application.ui.tests
-Bundle-RequiredExecutionEnvironment: JavaSE-22
+Bundle-RequiredExecutionEnvironment: JavaSE-23
 Require-Bundle: org.eclipse.swtbot.e4.finder,
  org.eclipse.swtbot.eclipse.core,
  org.eclipse.swtbot.eclipse.finder,
  org.eclipse.swtbot.eclipse.ui,
- org.junit.jupiter.api
+ junit-jupiter-api
 Export-Package: ca.footeware.e4.application.ui.tests
