@@ -17,11 +17,12 @@
       EPL 2.0
    </license>
 
+   <includes
+         id="com.opcoach.e4.preferences.feature"
+         version="0.0.0"/>
+
    <plugin
          id="ca.footeware.e4.application.ui"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
+         version="0.0.0"/>
 
 </feature>

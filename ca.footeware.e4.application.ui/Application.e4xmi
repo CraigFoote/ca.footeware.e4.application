@@ -16,7 +16,6 @@
         <children xsi:type="menu:Menu" xmi:id="_JmhDMHzrEe6zgtKK9f_mcQ" elementId="ca.footeware.e4.application.ui.menu.showview" label="Show View" mnemonics="V"/>
         <children xsi:type="menu:Menu" xmi:id="_Jmi4YHzrEe6zgtKK9f_mcQ" elementId="ca.footeware.e4.application.ui.menu.showperspective" label="Perspective" mnemonics="r"/>
         <children xsi:type="menu:MenuSeparator" xmi:id="_JmkGgHzrEe6zgtKK9f_mcQ"/>
-        <children xsi:type="menu:DirectMenuItem" xmi:id="_gRYRkHzrEe6zgtKK9f_mcQ" elementId="ca.footeware.e4.application.ui.directmenuitem.preferences" label="Preferences" mnemonics="P" contributionURI="bundleclass://com.opcoach.e4.preferences/com.opcoach.e4.preferences.handlers.E4PreferencesHandler"/>
       </children>
       <children xsi:type="menu:Menu" xmi:id="_Nz3NYHzrEe6zgtKK9f_mcQ" elementId="ca.footeware.e4.application.ui.menu.help" label="Help" mnemonics="H">
         <children xsi:type="menu:DirectMenuItem" xmi:id="_Rbur8HzrEe6zgtKK9f_mcQ" elementId="ca.footeware.e4.application.ui.directmenuitem.about" label="About" iconURI="" contributionURI="bundleclass://ca.footeware.e4.application.ui/ca.footeware.e4.application.ui.handlers.AboutHandler"/>
