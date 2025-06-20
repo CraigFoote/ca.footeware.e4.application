@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Footeware.e4" uid="ca.footeware.e4.application.product" id="ca.footeware.e4.application.ui.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.9.0.qualifier" type="features" includeLaunchers="true" includeJRE="true" autoIncludeRequirements="true">
+<product name="Footeware.e4" uid="ca.footeware.e4.application.product" id="ca.footeware.e4.application.ui.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="2.0.0.qualifier" type="features" includeLaunchers="true" includeJRE="true" autoIncludeRequirements="true">
+
+   <aboutInfo>
+      <image path="/ca.footeware.e4.application.ui/icons/about.png"/>
+      <text>
+         Another fine mess by Footeware.ca.
+      </text>
+   </aboutInfo>
 
    <configIni use="default">
    </configIni>
@@ -24,6 +31,7 @@
          <bmp/>
       </win>
    </launcher>
+
 
    <vm>
       <linux include="true">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-20</linux>

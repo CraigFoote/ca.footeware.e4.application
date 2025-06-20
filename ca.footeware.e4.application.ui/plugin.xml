@@ -19,6 +19,14 @@
 				name="appName"
 				value="Footeware.e4">
 			</property>
+   			<property
+         		name="aboutImage"
+         		value="icons/about.png">
+   			</property>
+   			<property
+         		name="aboutText"
+         		value="Another fine mess by Footeware.ca">
+   			</property>
 		</product>
 	</extension>
 
