@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.pde.ui.RuntimeWorkbench">
+    <booleanAttribute key="add_console" value="false"/>
     <setAttribute key="additional_plugins">
         <setEntry value="org.apache.felix.scr:2.2.4:default:true:2:true"/>
         <setEntry value="org.eclipse.core.runtime:3.26.100.v20221021-0005:default:true:3:true"/>
@@ -18,7 +19,7 @@
     <booleanAttribute key="clearConfig" value="true"/>
     <booleanAttribute key="clearws" value="true"/>
     <booleanAttribute key="clearwslog" value="false"/>
-    <stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/e4.application.product-RUN"/>
+    <stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/ca.footeware.e4.application.product-RUN"/>
     <booleanAttribute key="default" value="true"/>
     <setAttribute key="deselected_workspace_bundles"/>
     <stringAttribute key="featureDefaultLocation" value="workspace"/>
