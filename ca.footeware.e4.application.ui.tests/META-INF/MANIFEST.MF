@@ -2,9 +2,9 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Footeware Application Tests
 Bundle-SymbolicName: ca.footeware.e4.application.ui.tests
-Bundle-Version: 2.1.0.qualifier
+Bundle-Version: 2.2.0.qualifier
 Bundle-Vendor: Footeware.ca
-Fragment-Host: ca.footeware.e4.application.ui;bundle-version="2.1.0"
+Fragment-Host: ca.footeware.e4.application.ui;bundle-version="2.2.0"
 Automatic-Module-Name: ca.footeware.e4.application.ui.tests
 Bundle-RequiredExecutionEnvironment: JavaSE-26
 Require-Bundle: org.eclipse.swtbot.e4.finder;bundle-version="[4.3.0,5.0.0)",
